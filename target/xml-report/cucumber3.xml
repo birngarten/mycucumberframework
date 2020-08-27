@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="25.071">
+    <testcase classname="scenario outline example" name="testing the data tables web page" time="24.167">
+        <system-out><![CDATA[Given User is on the datatables homepage....................................passed
+When User clicks on new button..............................................passed
+And User enters first name "Feride".........................................passed
+And User enters last name "Guzel"...........................................passed
+And User enters position  "Mimar"...........................................passed
+And User enters office  "Munih".............................................passed
+And User enters extension "abc".............................................passed
+And User enters start date "2020-08-22".....................................passed
+And User enters salary "99000"..............................................passed
+And User clicks Create button...............................................passed
+And User enters first name "Feride" to the searchbox........................passed
+Then verify that user see the first name "Feride" in the searchbox..........passed
+]]></system-out>
+    </testcase>
+</testsuite>
